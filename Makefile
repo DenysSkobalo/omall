@@ -1,14 +1,18 @@
+.PHONY: compile run clean
+
 CC = gcc
-FLAGS = -o
+CFLAGS = -Wall -Wextra -std=c11
 FILE = main.c
 EXEC = main
-compile:
-	$(CC) $(FLAGS) $(EXEC) $(FILE)
 
-run: 
+all: run
+
+compile:
+	$(CC) $(CFLAGS) -g -o $(EXEC) $(FILE)
+
+run: compile
 	./$(EXEC)
 
 clean:
 	rm $(EXEC)
 
-.PHONY: compile run clean
