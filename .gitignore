@@ -1,0 +1,11 @@
+*.dSYM/
+*.stackdump
+
+main
+*.o
+*.obj
+
+build/
+dist/
+
+
