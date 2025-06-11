@@ -1,0 +1,19 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     main
+relocations:
+  - { offset: 0x26, size: 0x8, addend: 0x0, symName: _chunk_list_dump, symObjAddr: 0x0, symBinAddr: 0x10000380C, symSize: 0xB0 }
+  - { offset: 0x4D, size: 0x8, addend: 0x0, symName: _heap, symObjAddr: 0x1758, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offset: 0x71, size: 0x8, addend: 0x0, symName: _heap_size, symObjAddr: 0x9DB58, symBinAddr: 0x1000A4400, symSize: 0x0 }
+  - { offset: 0xA3, size: 0x8, addend: 0x0, symName: _alloced_chunks, symObjAddr: 0x9DB60, symBinAddr: 0x1000A4408, symSize: 0x0 }
+  - { offset: 0x11B, size: 0x8, addend: 0x0, symName: _freed_chunks, symObjAddr: 0xA1B68, symBinAddr: 0x1000A8410, symSize: 0x0 }
+  - { offset: 0x125, size: 0x8, addend: 0x0, symName: _chunk_list_dump, symObjAddr: 0x0, symBinAddr: 0x10000380C, symSize: 0xB0 }
+  - { offset: 0x165, size: 0x8, addend: 0x0, symName: _chunk_start_compar, symObjAddr: 0xB0, symBinAddr: 0x1000038BC, symSize: 0x3C }
+  - { offset: 0x1B7, size: 0x8, addend: 0x0, symName: _chunk_list_find, symObjAddr: 0xEC, symBinAddr: 0x1000038F8, symSize: 0xE8 }
+  - { offset: 0x209, size: 0x8, addend: 0x0, symName: _chunk_list_insert, symObjAddr: 0x1D4, symBinAddr: 0x1000039E0, symSize: 0x18C }
+  - { offset: 0x281, size: 0x8, addend: 0x0, symName: _chunk_list_remove, symObjAddr: 0x360, symBinAddr: 0x100003B6C, symSize: 0x58 }
+  - { offset: 0x2B3, size: 0x8, addend: 0x0, symName: _heap_alloc, symObjAddr: 0x3B8, symBinAddr: 0x100003BC4, symSize: 0xDC }
+  - { offset: 0x2F7, size: 0x8, addend: 0x0, symName: _heap_free, symObjAddr: 0x494, symBinAddr: 0x100003CA0, symSize: 0xCC }
+  - { offset: 0x337, size: 0x8, addend: 0x0, symName: _heap_collect, symObjAddr: 0x560, symBinAddr: 0x100003D6C, symSize: 0x50 }
+  - { offset: 0x34C, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x5B0, symBinAddr: 0x100003DBC, symSize: 0x98 }
+...
